@@ -132,7 +132,7 @@ resource "null_resource" "nullremote" {
                  "sudo mkfs.ext4 /dev/xvdh",
                  "sudo mount /dev/xvdh /var/www/html",
                  "sudo rm -rf /var/www/html/*",
-                 "sudo git clone https://github.com/Aishwarya2808/Cloud-Task-1.git /var/www/html/"
+                 "sudo git clone https://github.com/AmanM13/Task.git /var/www/html/"
               ]
         }
 }
